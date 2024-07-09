@@ -10,6 +10,9 @@ AutoCrypt is an experimental Proof Of Concept compile-time string encrypt system
 - Emulator makes brrr
 - Not xor
 
+## Performance
+While AutoCrypt offers increased complexity compared to simple XOR encryption, it is likely slower due to its multi-layer structure and complex operations. However, no formal benchmarks have been conducted yet. The trade-off between security and speed should be considered for specific use cases.
+
 ## Usage
 
 ```cpp
